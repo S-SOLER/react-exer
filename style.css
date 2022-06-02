@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    background-color: #e0e0e0;
+    color: rgb(7, 7, 7);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+    margin: 30px;
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+}
+.txt--h1 {
+    padding: 0;
+    margin: -10px 0px 7px 0px;
+    text-align: center;
+    color: #095b5b;
+}
+.title {
+    text-align: center;
+    color: black;
+}
+.txt--info {
+    text-align: center;
+    color: #095b5b;
+}
+.search {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    border: 2px solid #008080;
+    border-radius: 25px;
+}
+input::placeholder {
+    color: teal;
+}
+form {
+    display: flex;
+}
+
+input {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+}
+
+
+
+.li-container {
+    background-color: white;
+    width: 100%;
+    color: blueviolet;
+    margin-top: 0;
+}
+ul {
+    padding: 0;
+}
+
+.li-container ul li p {
+    color: #095b5b;
+}
+
+li {
+    list-style: none;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+}
+li p {
+    margin: 0px;
+    padding: 15px;
+    width: 100%;
+}
+
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    padding-top: 8px;
+}
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+
+  .container {
+    margin: 30px;
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 18px #00000038;
+    margin-top: 2%;
+}
